@@ -1,0 +1,348 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1em;
+    font-family: 'DM Sans', sans-serif;
+    background-image: url(imagens/back.png);
+    background-size: cover;
+}
+/*Layout */
+#area-cabecalho{
+    background: url(imagens/capacabe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    text-align: center;
+}
+#menu, #logo{
+    padding: 10px;
+}
+#area-principal{
+    width: 920px;
+    margin: 0 auto;
+}
+#contain{
+    width: 600px;
+    float: left;
+    margin-top: 10px;
+}
+#main-side{
+    width: 240px;
+    background: url(imagens/side.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: right;
+    margin-top: 30px;
+    border-radius: 3px;
+    color: rgb(0, 0, 0);
+    text-indent: 20px;
+    padding: 10px;
+    font-size: 15px;
+    text-align: center;
+    position: relative;
+    left: -8%;
+}
+.contato{
+    align-items: center;  
+}
+.post1{
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.041);
+    color: white;
+    text-indent: 30px;
+    float: right;
+    text-align: justify;
+}
+.post2{
+    margin-top: 10px;
+    float: left;
+}
+.img1{
+    border-radius: 3px;
+    float:left;
+    margin: 10px;
+    position: relative;
+    left: -10px;
+}
+#carrosel{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+.img2, .img3, .img4{
+    border-radius: 3px;
+    position: relative;
+    left: 30%;
+    border: 1px solid #f7b50077;
+    width: 200px;
+
+}
+.img5{
+    width: 200px;
+    text-align: center;
+}
+.titleside{
+    margin: 10px;
+    text-align: center;
+}
+h2{
+    color: #f7b600;
+    text-indent: 0;
+    font-size: 30px;
+}
+.projetos{
+    width: 70%;
+    clear: both;
+    background: #0000009c;
+    display: flex;
+    position: relative;
+    left: 180px;
+}
+#oquee{
+    clear: both;
+    color:#d3d8d3;
+    text-align: center;
+}
+.box1, .box2, .box3{
+    width: 230px;
+    height: 380px;
+    margin: 10px;
+    position: relative;
+    left:15%;
+    overflow: hidden;
+}    
+h4{
+    padding: 10px;
+    font-size: 14px;
+    float: left;
+    color: #f7b600;
+    text-indent: 13px;
+    text-align: center;
+}
+.data{
+    font-size: 0.8em;
+
+}
+footer{
+    padding: 10px;
+    clear: both;
+    position: relative;
+    top: 10%;
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+/* formatação menu */
+
+a:link, a:visited {
+    color: white;
+    text-decoration: none;
+    padding: 8px 12px;
+}
+a:hover{
+    color: #f7b600;
+    border-radius: 3px;
+}
+#oquee2{
+    background-color: rgba(255, 255, 255, 0.61);
+    text-align: left;
+    margin: 10px;
+    padding: 30px;
+    background: url(imagens/contato.jpg) center center;
+    border-radius: 30px;
+}
+input{
+    width: 40%;
+    height: 40%;
+    border-radius: 7px;
+}
+textarea{
+    width: 40%;
+    height: 40%;
+}
+h5{
+    color:#f7b600;
+}
+button{
+    color: #ffffff;
+    background-color: rgb(0, 0, 0);
+    width: 50px;
+    height: 30px;
+    border-radius: 3px;
+}
+
+
+@media (max-width: 700px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-size: 1em;
+        font-family: 'DM Sans', sans-serif;
+        background-image: url(imagens/back.png);
+        background-size: cover;
+    }
+    /*Layout */
+    #area-cabecalho{
+        background: url(imagens/capacabe.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10px;
+        width: auto;
+    }
+    #menu, #logo{
+        padding: 10px;
+    }
+    #area-principal{
+        width: auto;;
+    }
+    #contain{
+        width: auto;
+        margin-top: 1px;
+    }
+    #main-side{
+        margin-left:60px;
+        width: auto;
+        background: url(imagens/side.jpg) center center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 3px;
+        color: rgb(0, 0, 0);
+        padding: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+    .contato{
+        align-items: center;  
+    }
+    .post1{
+        background-color: rgba(0, 0, 0, 0.041);
+        color: white;
+        text-indent: 15px;
+    }
+    .post2{
+        margin-top: 5px;
+    }
+    .img1{
+        border-radius: 3px;
+        margin: 10px;
+        width: 300px;
+        align-items: center;
+        position: relative;
+        left: 20px;
+    }
+    #carrosel{
+        text-align: center;
+        margin: 0px;
+        padding: 0px;
+        clear: both;
+    }
+    .img2, .img3, .img4{
+        border-radius: 3px;
+        border: 1px solid #f7b50077;
+        width: 90px;
+        position: relative;
+        left:10px;
+    
+    }
+    .img5{
+        width: 200px;
+        text-align: center;
+    }
+    .titleside{
+        margin: 10px;
+        text-align: center;
+    }
+    h2{
+        color: #f7b600;
+        text-indent: 0;
+        font-size: 30px;
+    }
+    .projetos{
+        width: auto;
+        background: #0000009c;
+        position: relative;
+        left:auto;
+    }
+    #oquee{
+        clear: both;
+        color:#c2c1bb;
+        text-align: center;
+        position: relative;
+        top: 11px;
+        z-index: 1;
+        background-color: rgb(0, 0, 0);
+    }
+    .box1, .box2, .box3{
+        width: 90px;
+        margin: 10px;
+        position: relative;
+        left:5%;
+        height: 300px
+    }    
+    h4{
+        text-align: ;
+        font-size: 10px;
+        color: #f7b600;
+        
+
+    }
+    .data{
+        font-size: 0.8em;
+    
+    }
+    footer{
+        padding: 10px;
+        clear: both;
+        position: relative;
+        top: 10%;
+        text-align: center;
+        color: rgb(0, 0, 0);
+    }
+    /* formatação menu */
+    
+    a:link, a:visited {
+        color: white;
+        text-decoration: none;
+        padding: 8px 12px;
+    }
+    a:hover{
+        color: #f7b600;
+        border-radius: 3px;
+    }
+    #oquee2{
+        background-color: rgba(255, 255, 255, 0.61);
+        text-align: left;
+        margin: 10px;
+        padding: 30px;
+        background: url(imagens/contato.jpg) center center;
+        border-radius: 30px;
+    }
+    input{
+        width: 40%;
+        height: 40%;
+        border-radius: 7px;
+    }
+    textarea{
+        width: 40%;
+        height: 40%;
+    }
+    h5{
+        color:#f7b600;
+    }
+    button{
+        color: #ffffff;
+        background-color: rgb(0, 0, 0);
+        width: 50px;
+        height: 30px;
+        border-radius: 3px;
+    }
+    embed{
+        width: 0px;
+    }
+}
